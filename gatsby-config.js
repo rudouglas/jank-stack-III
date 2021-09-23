@@ -47,7 +47,6 @@ module.exports = {
         NR_LICENSE_KEY: process.env.NEW_RELIC_LICENSE_KEY || '',
         NR_ACCOUNT_ID: process.env.NEW_RELIC_ACCOUNT_ID,
         SITE_NAME: 'jankstack',
-        staging: true,
         customTags: {
           gatsbySite: 'jankstack',
         }
