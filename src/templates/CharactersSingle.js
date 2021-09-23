@@ -1,9 +1,9 @@
 import React from 'react'
 import {Col, Row} from 'react-styled-flexboxgrid'
 
-import {CharacterCard} from '../Components/elements/cards'
-import Layout from './../Components/Layout'
-import {Box} from '../Components/elements/layout'
+import {CharacterCard} from '../components/elements/cards'
+import Layout from './../components/Layout'
+import {Box} from '../components/elements/layout'
 
 const CharactersSingle = props => {
 	const characters = props.pageContext.characters
